@@ -8,9 +8,45 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/img/i.ico" type="image/x-icon">
     
 </head>
-<body>
+<body class="footer-fijo">
+    <header class="header">
+        <img src="/img/logo.png" alt="Logotipo">
+    </header>
+    <div class="barra">
+        <nav class="nav">
+            <a href="index.html">Tienda</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
 
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="contenedor-informacion">
+            <img src="/img/3.jpg" alt="Imagen producto" class="imagen-producto">
+            <div class="contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum in ipsum eget fringilla. Duis hendrerit laoreet augue, sed consectetur velit eleifend ut. Vestibulum eget neque dignissim, malesuada nisl ut, volutpat diam.</p>
+                <form class="formulario-pedido">
+                    <select class="talla campo">
+                        <option value="S">Pequeña</option>
+                        <option value="M">Mediana</option>
+                        <option value="L">Grande</option>
+                    </select>
+                    <input type="number" min="1" class="cantidad campo">
+                    <input type="submit" class="boton" value="Agregar al carrito">
+                </form>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">
+            Front-End Store  -  Todos los derechos reservados 2020.
+        </p>
+    </footer>
+    
 </body>
 </html>
